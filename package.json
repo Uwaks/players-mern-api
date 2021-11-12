@@ -1,0 +1,19 @@
+{
+  "name": "json-hw-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.6",
+    "mongoose-unique-validator": "^2.0.3",
+    "unique": "^0.0.1",
+    "validator": "^13.6.0"
+  },
+  "scripts": {
+    "dev": "npx nodemon",
+    "seed": "node db/seed.js"
+  }
+}
